@@ -8,39 +8,60 @@
 
 <body>
 
-    <h1>
-        SENAI 2024
-    </h1>
+    <div class="myDiv">
+        <!-- <img src="senai1--web.jpg" alt="Não foi possivel carregar a imagem!" height="330px"> -->
 
-    <img src="R.png" 
-    alt="Não foi possivel carregar a imagem!" height="50px">
+        <h2>SENAI 2024 - ESCOLA TECNOLOGICA DO PARANÁ.</h2>
+        <p>Unidade de Dois Vizinhos.</p>
+        <p>Rua Pedro Alvares Cabral, 905 - São Francisco de Assis</p>
+        <label for="w3review">Deixe aqui sua sujestão de cursos: </label>
+        <input type="text" id="w3review">
 
-    <p>
-        Lorem ipsum dolor sit, amet
-        consectetur adipisicing elit.
-        Natus similique quam neque
-        excepturi sed maxime pariatur
-        id praesentium hic tempore quibusdam,
-        animi, fugiat dolorem sequi magni,
-        debitis eius laudantium repellendus.
-    </p>
+        <button type="button" onclick="alert('Sua mensagem foi enviada.')">Enviar!</button>
+    </div>
+    <details>
+        <summary>Galeria de fotos</summary>
+        <p>Nossos alunos tem os laboratórios de informatica, onde colocam em pratica todos os trabalhos criados nas
+            aulas.</p>
+    </details>
+    <img src="aprendizagem-Foto_SENAI-Bahia-1-1024x507-1.png" height="100px">
+    <label for="w3review">Trabalho de laboratório</label>
+    <img src="IMG_0270-scaled.jpg" height="100px">
+    <label for="w3review">Curso de eletronica</label>
+    <img src="whatsapp-image-2022-11-23-at-16.30.53.webp" height="100px">
+    <label for="w3review">Trabalho de equipe</label>
+
 
     <style>
         body {
-            background-color: green;
+            background-color: rgb(173, 157, 218);
             text-align: center;
         }
 
         h1 {
-            color: #ffffff;
-            /* text-decoration: underline; */
-            /* text-decoration: line-through; */
-            /* text-decoration: overline; */
+            color: #2d0c88;
+            /* text-decoration: underline;
+            text-decoration: line-through;
+            text-decoration: overline; */
         }
 
         p {
-            font-size: 15px;
+            font-size: 30px;
             font-family: Verdana;
+        }
+
+        .myDiv {
+            width: 100%;
+            height: 80%;
+            background-image: url("./senai1--web.jpg");
+            border: 1px outset rgb(45, 3, 80);
+            /* background-color: rgb(107, 59, 241); */
+            text-align: center;
+        }
+
+        label,
+        textarea {
+            margin-top: 10cap;
         }
     </style>
 </body>

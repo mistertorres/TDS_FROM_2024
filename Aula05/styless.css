@@ -14,7 +14,9 @@ body{
 
 input{
     color: #fff;
-
+    font-size: 12px;
+    
+    
 } 
 
 .card{
@@ -30,7 +32,7 @@ input{
 }
 
 .card-content label{
-    color: rgb(0, 0, 0);
+    color: rgb(247, 243, 243);
     font-size: 20px;
 
 }
